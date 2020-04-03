@@ -4,6 +4,7 @@ Suggested front-end for IT Portal Challenge 1
 The prototype is built as a web application, using the Springboot framework and Bootstrap.
 Running the code will start a basic Tomcat server from your computer.
 When the server is started, you can view the prototype from any internet browser. 
+
 URL: http://localhost:8080/
 
 This will lead you to the index page, which is an image of Rabohub with an added IT support widget.
