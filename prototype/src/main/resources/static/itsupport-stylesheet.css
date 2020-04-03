@@ -1,0 +1,207 @@
+.col-md-2 {
+align: center;
+}
+
+p {
+color: DarkBlue;
+}
+
+.thumbnail {
+height: 80px;
+}
+
+#languageButton {
+position: absolute;
+display: block;
+}
+
+#flagContainer {
+position: absolute;
+right: 10%;
+}
+
+#flag {
+padding: 1px;
+border: 1px solid black;
+height: 40px;
+}
+
+#flag:hover {
+border: 1px solid white;
+}
+
+#raboLogo {
+width: 100%;
+height: auto;
+}
+
+.appLogo {
+height: 100%;
+width: auto;
+}
+
+.searchBar {
+padding: 20px;
+background-color: DarkBlue;
+}
+
+.searchButton {
+background-color: WhiteSmoke;
+}
+
+#welcome {
+text-align: center;
+color: White;
+}
+
+.appBar {
+background-color: WhiteSmoke;
+border: 2px solid grey;
+}
+
+h4 {
+display: inline-block;
+}
+
+.appRow {
+float: left;
+}
+
+.deadApp {
+height: 60px;
+padding: 10px;
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+}
+
+.searchBar h4 {
+text-align: center;
+vertical-align: center;
+color: White;
+margin: 0px;
+}
+
+input[type=text] {
+width: 100%;
+vertical-align: middle;
+padding: 10px;
+}
+
+#headerImg {
+width: 100%;
+height: auto;
+}
+
+#ninaChat {
+position: fixed;
+bottom: 0px;
+right: 0px;
+width: 15%;
+}
+
+#chatButton {
+background-color: DarkBlue;
+right: 0;
+width: 100%;
+}
+
+#ninaHead {
+width: 50%;
+bottom: 0;
+right: 57px;
+position: absolute;
+z-index: -1;
+}
+
+.modal .modal-dialog {
+position: fixed;
+bottom: -36px;
+right: 0px;
+}
+
+.modal-dialog {
+width: 50%;
+}
+
+.modal-body {
+height: 300px;
+background-color: WhiteSmoke;
+overflow-y: auto;
+}
+
+#ninaModal {
+position: absolute;
+width: 50%;
+right: 30px;
+bottom: 250px;
+
+}
+
+.speech-bubble-1, .speech-bubble-2 {
+	position: relative;
+	background: White;
+	border-radius: .4em;
+	border: 1px solid grey;
+}
+
+.speech-bubble-1:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 22.43px;
+	width: 0;
+	height: 0;
+	border: 7px solid transparent;
+	border-right-color: grey;
+	border-left: 0;
+	margin-top: -7px;
+	margin-left: -8px;
+}
+
+.speech-bubble-2:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 22.43px;
+	width: 0;
+	height: 0;
+	border: 7px solid transparent;
+	border-left-color: grey;
+	border-right: 0;
+	margin-top: -7px;
+	margin-right: -8px;
+}
+
+
+.rounded-circle {
+width: 100%;
+background-color: White;
+border: 1px solid grey;
+}
+
+.ninaPortrait {
+float: right;
+}
+
+.message {
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.modal-header {
+background-color: DarkBlue;
+border-bottom: 0px;
+}
+
+.modal-footer {
+background-color: #212529;
+}
+
+h5, .close {
+color: White;
+}
